@@ -1,0 +1,200 @@
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+    background-color: #2c2d2e;
+    padding: 0;
+    margin-left: -50px;
+    margin-top: -50px;
+    color: #c7c3b9;
+    font-family: 'Play', sans-serif;
+
+    &__block{
+        display: flex;
+        flex-direction: column;
+        
+        padding-top: 50px;
+        padding-left: 20px;
+    
+
+
+
+        &__h{
+            padding-bottom: 100px;
+            
+            
+            font-size: 45px; 
+            margin: 0 auto;
+            font-weight: 100;
+        }
+
+
+        &__firstblock{
+                
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 80%;
+                margin: 0 auto;
+
+            &__res {
+                font-size: 25px;  
+            }
+
+            &__wrapper{
+                display: flex;
+                flex-direction: row;
+            }
+
+            &__wrapper img{
+                width: 20%;
+                height: 25%;
+                margin-top: 10px;
+                padding-left: 5px;
+            }
+
+            &__wrapper p{
+                width: 85%;
+                text-align: left;
+                margin-right: 10px;
+            }
+        }
+
+     
+
+        &__firstblock h1 {
+
+            padding-bottom: 50px;           
+            font-size: 35px; 
+            font-weight: 100;
+            margin: 0 auto;
+            
+        } 
+        
+        &__firstblock p {
+            border-left-style: dotted;
+            border-color: orange;
+            margin-top: 10px;
+            font-size: 20px;
+            line-height: 30px;
+            padding-left: 8px;
+            background-color: #dfe1e213
+        }
+
+        &__firstblock hr {
+            margin-top: 30px
+        }
+        
+
+
+
+    }
+
+
+}
+
+
+#imgtwo{
+    width: 50%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+// .info{
+    
+    
+//     background-color: #2c2d2e;
+//     padding: 0;
+//     margin-left: -50px;
+//     margin-top: -50px;
+//     color: #c7c3b9;
+//     font-family: 'Play', sans-serif;
+
+//     &__block{
+//         padding-top: 50px;
+//         padding-left: 20px;
+    
+
+
+
+//         &__h{
+//             padding-bottom: 100px;
+//             padding-left: 430px;
+//             font-size: 45px; 
+//             margin: 0 auto;
+//             font-weight: 100;
+//         }
+
+
+//         &__firstblock{
+            
+//                 width: 80%;
+//                 margin: 0 auto;
+
+//             &__res {
+//                 font-size: 25px;  
+//             }
+
+//             &__res img{
+                
+//             }
+//         }
+
+//         &__firstblock h1 {
+
+//             padding-bottom: 50px;
+//             padding-left: 530px;
+//             font-size: 35px; 
+//             margin: 0 auto;
+//             font-weight: 100;
+            
+//         } 
+        
+//         &__firstblock p {
+//             border-left-style: dotted;
+//             border-color: orange;
+//             margin-top: 10px;
+//             font-size: 20px;
+//             line-height: 30px;
+//             padding-left: 8px;
+//             background-color: #dfe1e213
+//         }
+
+//         &__firstblock hr {
+//             margin-top: 30px
+//         }
+        
+
+
+
+//     }
+
+
+// }
+
+
+
