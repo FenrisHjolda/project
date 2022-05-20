@@ -86,7 +86,12 @@
 
             &__wrapper{
                 display: flex;
-                flex-direction: row;
+                flex-direction: row;  
+            }
+
+            &__elic{
+                display: flex;
+                flex-direction: column;
             }
 
             &__wrapper img{
@@ -100,6 +105,22 @@
                 width: 85%;
                 text-align: left;
                 margin-right: 10px;
+            }
+
+            &__ngwrapper{
+                display: flex;
+                flex-direction: row;
+
+                &__imgwrap {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 10px;
+
+                    
+                }
+
+
+
             }
         }
 
@@ -135,6 +156,7 @@
 
 
 }
+
 
 
 #imgtwo{
